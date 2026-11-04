@@ -29,8 +29,6 @@ Production GenAI agents built on **Amazon Bedrock** and the **Claude API**, inte
 A few examples:
 
 - Ticket quality scoring
-- Story decomposition
-- PRD generation
 - PR review automation
 - Jira hygiene monitoring
 - Engineering analytics dashboards
