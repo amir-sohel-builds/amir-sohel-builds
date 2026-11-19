@@ -1,60 +1,36 @@
-# Amir Sohel
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Amir Sohel, Staff Technical Program Manager. Platform and AI programs at streaming scale." src="assets/hero-light.svg" width="100%">
+</picture>
 
-**Staff Technical Program Manager at Warner Bros. Discovery**
+I lead technical programs for platform and AI infrastructure, and I like owning the whole arc: discovery, roadmap, delivery, and the numbers afterward.
 
-Started as a backend engineer. Still write code.
+## What I do as a TPM
 
-Toronto, Canada | [LinkedIn](https://linkedin.com/in/asohel) | [aot.amirsohel@gmail.com](mailto:aot.amirsohel@gmail.com)
+**Agentic AI platform, from zero to production.** I was the program lead for an agent platform in the platform engineering org behind HBO Max, Discovery+, TNT Sports, and CNN. 79+ agents are live in production. Technical and non-technical teams get their agents and apps deployed and operated there, with evals, versioned prompts, rollback, cost tracking, and governed access to tools and data.
 
----
+**Cloud cost, down 43% in a year.** I led decommissioning across a large AWS footprint with no customer impact, through peak streaming events.
 
-## What I Actually Do
+**Delivery and reliability.** Deployments went from three days to under four hours with one-click rollbacks. Support tickets fell by more than a quarter, and SLO compliance went up.
 
-I run platform programs for HBO Max streaming infrastructure serving 130M+ subscribers.
+## How I run programs
 
-My background is in backend engineering, Java, distributed systems, and GraphQL, so I can sit with engineers and have a real conversation about what is hard, why it is hard, and what it takes to ship.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/program-dark.svg">
+  <img alt="How I run a program at scale: discover, align, plan, build, gate, launch, operate, learn, in a loop. One program lead coordinates engineering, product, security, finops, support and data." src="assets/program-light.svg" width="100%">
+</picture>
 
-The last year has been one of the most interesting of my career. I built WBD's first agentic AI platform from scratch as the sole TPM. I ran product discovery across two organizations, helped define what needed to be built, and drove it to production.
+- A named owner for every workstream, and a date.
+- Evidence before launch: evals, not opinions.
+- Every launch can be undone in one step.
+- Deterministic where it works. AI where it earns its place. Measure both.
 
-Agent runtime. Observability. Identity. Prompt management. RAG. Tool integration. The whole stack.
+## Tools I build for TPMs
 
-On the side, I build agents myself. This repo has some of that work.
+Personal projects, built in my own time. Not my employer's work.
 
----
+**[agent-skills](https://github.com/amir-sohel-builds/agent-skills)**: 17 TPM tools that run, not advice. Every skill ships a script, a worked example, and an eval.
 
-## What's in Here
+**[jobfunnel](https://github.com/amir-sohel-builds/jobfunnel)**: a deterministic job-search tracker with transparent, rule-based scoring. No scraping, and no LLM in the core loop.
 
-Production GenAI agents built on **Amazon Bedrock** and the **Claude API**, integrated with Jira, PagerDuty, GitHub Actions, AWS, and Confluence.
-
-A few examples:
-
-- Ticket quality scoring
-- PR review automation
-- Jira hygiene monitoring
-- Engineering analytics dashboards
-
-These are tools built around real engineering workflows, not demos.
-
----
-
-## A Few Things I've Shipped
-
-- **WBD's first agenticc AI platform**, from no program structure to production
-- Significant cloud cost reduction across a large AWS footprint
-- Deployment cycles reduced from days to hours across a large platform organization
-- Meaningful improvement in SLO compliance and support ticket volume within  one quarter
-- **13+ production agents** on Amazon Bedrock
-
----
-
-## Stack
-
-`Amazon Bedrock` · `Claude API` · `AgentCore` · `Python` · `TypeScript` · `Java` · `AWS` · `Kubernetes` · `Terraform` · `Jira API` · `GitHub Actions` · `Power BI`
-
----
-
-## Get in Touch
-
-I'm always interested in conversations around AI agents, platform engineering, developer productivity, and building systems that actually get used.
-
-[LinkedIn](https://linkedin.com/in/asohel)
+[Portfolio](https://amir-sohel-builds.github.io) | [LinkedIn](https://www.linkedin.com/in/asohel) | [Email](mailto:aot.amirsohel@gmail.com)
